@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31753E2A2388A70A009F4800 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31753E292388A70A009F4800 /* Player.swift */; };
 		318825422360E3390000084E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318825412360E3380000084E /* AppDelegate.swift */; };
 		318825442360E3390000084E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318825432360E3390000084E /* SceneDelegate.swift */; };
 		318825462360E3390000084E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318825452360E3390000084E /* WelcomeVC.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31753E292388A70A009F4800 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3188253E2360E3380000084E /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318825412360E3380000084E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		318825432360E3390000084E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31753E282388A6FC009F4800 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31753E292388A70A009F4800 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		318825352360E3380000084E = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +72,7 @@
 		318825402360E3380000084E /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				31C385672387411A00AA27E9 /* Model */,
+				31753E282388A6FC009F4800 /* Model */,
 				31C385662387410C00AA27E9 /* Controller */,
 				318825552360E78B0000084E /* View */,
 				318825412360E3380000084E /* AppDelegate.swift */,
@@ -91,13 +101,6 @@
 				31C3856A2387428700AA27E9 /* SkillVC.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		31C385672387411A00AA27E9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +178,7 @@
 				318825462360E3390000084E /* WelcomeVC.swift in Sources */,
 				318825422360E3390000084E /* AppDelegate.swift in Sources */,
 				318825442360E3390000084E /* SceneDelegate.swift in Sources */,
+				31753E2A2388A70A009F4800 /* Player.swift in Sources */,
 				31C3856B2387428700AA27E9 /* SkillVC.swift in Sources */,
 				318825572360E7E80000084E /* BorderButton.swift in Sources */,
 			);
